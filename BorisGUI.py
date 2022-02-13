@@ -157,10 +157,10 @@ class Graphics:
         for n in range(100):
             next_char, states = two_step.generate_one_step(next_char, states=states)
             result.append(next_char)
-            if next_char == "." or next_char == "\n":
+            if (next_char == "." or next_char == "\n") and n > 20:
                 break
         output = tf.strings.join(result)[0].numpy().decode("utf-8")
-
+        output += "..."
         return output
 
     def gtts(self):
