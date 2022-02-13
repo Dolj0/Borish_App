@@ -5,14 +5,15 @@
  
  We scraped ~1,500,000 characters from the gov.uk website using the beautiful soup package and then fed this data into a recurrent neural network created using tensorflow in python. The RNN was adapted from --> https://www.tensorflow.org/text/tutorials/text_generation
  
- beautifulsoup.ipynb <-- Web Scraping and string cleaning script
- adaptedTextGen.ipynb <-- Tensorflow's RNN notebook adapted for our purposes
- Boris.txt <-- Full lexicon of 1,500,000 characters of pure Bojo Charisma
+ <-- These Files are only in this repository for show, once the RNN was trained and saved these were no longer needed -->
+ beautifulsoup.ipynb <-- Web Scraping and string cleaning script </br>
+ adaptedTextGen.ipynb <-- Tensorflow's RNN notebook adapted for our purposes </br>
+ Boris.txt <-- Full lexicon of 1,500,000 characters of pure Bojo Charisma </br>
  
  We then saved this RNN and put it into a tkinter GUI which allows a user to enter in a prompt for our Boris bot to finish. The text is also then read out by a simple text to speech package.
  
-  BorisGUI.py <-- Full functionality in one file
-  two_step <-- Saved Tensorflow model
+  BorisGUI.py <-- Full functionality in one file </br>
+  two_step <-- Saved Tensorflow model </br>
  
  ![Screenshot](Borish.png)
  
