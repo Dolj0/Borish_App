@@ -22,7 +22,7 @@
  
  With more time, a more realistic and bespoke TTS would be trained using Boris's real voice. The RNN would also be improved upon as it rarely produces coherent text.
  
- ##Installation and Running:
+ ## Installation and Running:
  
  Git clone https://github.com/Dolj0/Borish_App/
  pip install -r requirements.txt
