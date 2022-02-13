@@ -5,7 +5,7 @@
  
  We scraped ~1,500,000 characters from the gov.uk website using the beautiful soup package and then fed this data into a recurrent neural network created using tensorflow in python. The RNN was adapted from --> https://www.tensorflow.org/text/tutorials/text_generation
  
- <-- These Files are only in this repository for show, once the RNN was trained and saved these were no longer needed -->
+ <-- These Files are only in this repository for show, once the RNN was trained and saved these were no longer needed --> </br>
  beautifulsoup.ipynb <-- Web Scraping and string cleaning script </br>
  adaptedTextGen.ipynb <-- Tensorflow's RNN notebook adapted for our purposes </br>
  Boris.txt <-- Full lexicon of 1,500,000 characters of pure Bojo Charisma </br>
