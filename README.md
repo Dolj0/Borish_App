@@ -24,10 +24,10 @@
  
  ## Installation and Running:
  
- Git clone https://github.com/Dolj0/Borish_App/
- pip install -r requirements.txt
- (Sometimes python might not recognise a few packages, should still be fine to run, if not pip install missing packages)
- python BorisGUI.py
+ Git clone https://github.com/Dolj0/Borish_App/ </br>
+ pip install -r requirements.txt </br>
+ (Sometimes python might not recognise a few packages, should still be fine to run, if not pip install missing packages) </br>
+ python BorisGUI.py </br>
  
  
  
