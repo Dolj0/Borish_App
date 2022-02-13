@@ -7,7 +7,7 @@
  
  We then saved this RNN and put it into a tkinter GUI which allows a user to enter in a prompt for our Boris bot to finish. The text is also then read out by a simple text to speech package.
  
- ![Screenshot](borish.png)
+ ![Screenshot](Borish.png)
  
  With more time, a more realistic and bespoke TTS would be trained using Boris's real voice. The RNN would also be improved upon as it rarely produces coherent text.
  
